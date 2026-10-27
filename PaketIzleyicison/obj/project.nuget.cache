@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "k8yCc6oSZho=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gordu\\OneDrive\\Desktop\\PaketIzleyicison\\PaketIzleyiciTemiz.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gordu\\.nuget\\packages\\packetdotnet\\1.4.8\\packetdotnet.1.4.8.nupkg.sha512",
+    "C:\\Users\\gordu\\.nuget\\packages\\sharppcap\\6.3.1\\sharppcap.6.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

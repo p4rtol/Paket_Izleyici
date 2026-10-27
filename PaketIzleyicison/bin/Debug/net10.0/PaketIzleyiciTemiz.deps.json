@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "PaketIzleyiciTemiz/1.0.0": {
+        "dependencies": {
+          "PacketDotNet": "1.4.8",
+          "SharpPcap": "6.3.1"
+        },
+        "runtime": {
+          "PaketIzleyiciTemiz.dll": {}
+        }
+      },
+      "PacketDotNet/1.4.8": {
+        "runtime": {
+          "lib/net9.0/PacketDotNet.dll": {
+            "assemblyVersion": "1.4.8.0",
+            "fileVersion": "1.4.8.0"
+          }
+        }
+      },
+      "SharpPcap/6.3.1": {
+        "dependencies": {
+          "PacketDotNet": "1.4.8"
+        },
+        "runtime": {
+          "lib/net8.0/SharpPcap.dll": {
+            "assemblyVersion": "6.3.1.0",
+            "fileVersion": "6.3.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PaketIzleyiciTemiz/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PacketDotNet/1.4.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j4C4QaJmaPCk0KXsIdsZqmBteKWj5znXBmfbPpu48rE5SW2xwXKVlRf7C3g7VM9aZqMHIQedApEuC71nNX5PaQ==",
+      "path": "packetdotnet/1.4.8",
+      "hashPath": "packetdotnet.1.4.8.nupkg.sha512"
+    },
+    "SharpPcap/6.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EWclXz+QdffBRppFR7GDBLyKiAz045RGvu4t4gcMGocVMEq6dRfCnAEx7Ep6qxcPPhH2kz13Y8FqBaHZhsh3Pg==",
+      "path": "sharppcap/6.3.1",
+      "hashPath": "sharppcap.6.3.1.nupkg.sha512"
+    }
+  }
+}
